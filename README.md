@@ -64,4 +64,9 @@ ___
 1. Es tiren els daus de transformació.
 2. El lluitador podrà escollir la transformació que tingui com a mínim el valor de transformació que hagin tret els daus.
 
+___
+# Preguntes durant projecte
+- Com es pot desar un object lògic a un objecte del DOM per poder-lo trobar al fer-li click?
+- En un esdeveniment de click com es pot detectar el target para sense necessitar fer un parent fins a tenir el target que es vol?
+
 

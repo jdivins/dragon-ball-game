@@ -3,29 +3,31 @@ import {characters } from './db/characters.js'
 
 /* DOM Objects */
 const playersFormDOM = document.querySelector('#players');
-const catalog = document.querySelector('#catalog');
+const playersInfoDOM = document.querySelector('#players-info');
+const catalogDOM = document.querySelector('#catalog');
+const board = document.querySelector('#board');
 
 /* Global Vars */
 const fighters = [];
 
-document.querySelector('#app').innerHTML = `
-  <h1>La Resistència! - <span class="small">Bola de Drac</span></h1>
-`
+/* AUX Functions */
 class Consola {
   static log(...args) {
     document.querySelector('#consola').innerHTML += args.join(' ') + '<br>'
   }
 }
 
+/* Classes */
+
 class Player {
-  #fighters = [];
+  fighters = [];
   hasTurn = false;
   constructor(name) {
     this.name = name
     this.addFighter = this.addFighter.bind(this)
   }
   addFighter(fighter) {
-    this.#fighters.push(fighter);
+    this.fighters.push(fighter);
   }
 }
 
@@ -54,13 +56,19 @@ class Board  {
     this.players[0].hasTurn = true;
   }
 
+  nextPlayerTurn() {
+    this.currentPlayerTurn.hasTurn = false;
+    this.currentPlayerTurn = this.players[(this.players.indexOf(this.currentPlayerTurn) + 1) % this.players.length];
+    this.currentPlayerTurn.hasTurn = true;
+  }
+
   addFighter(fighter) {
     this.#fighters.push(fighter);
     fighter.setOwner(this);
   }
 
   draw() {
-    const board = document.querySelector('#board');
+    board.innerHTML = '';
     for (let i = 0; i < 100; i++) {
       const cell = document.createElement('span');
       cell.classList.add('cell');
@@ -72,9 +80,16 @@ class Board  {
       cell.innerText = "";
       board.appendChild(cell);
     }
-    this.#fighters.forEach(fighter => {
-      this.#drawFighter(fighter);
-    });
+    if(this.players) {
+      this.players.forEach(player => {
+        if(player.fighters) {
+          player.fighters.forEach(fighter => {
+            this.#drawFighter(fighter);
+          })
+        }
+      });
+    }
+    
   }
   
 
@@ -92,6 +107,7 @@ class Board  {
 
 class Fighter {
   playerOwner = null
+  fighterDOM = null
   position = 0;
   image = "";
   univers = "";
@@ -118,6 +134,17 @@ class Fighter {
           ${this.name}
         </div>
       </div>
+    `
+  }
+
+  getFighterCardSimple() {
+    return `
+        <div class="fighter-card-image">
+          <img src="${this.image}">
+        </div>
+        <div class="fighter-card-name">
+          ${this.name}
+        </div>
     `
   }
 }
@@ -179,14 +206,53 @@ function prepareGame() {
   document.querySelector('#start-game').addEventListener('click', chooseFighters);
 }
 
+function selectFighter(ev){
+  let fighterDOM = "";
+  if(ev.target.classList.contains('fighter-card')) {
+    fighterDOM = ev.target;
+  } else if(ev.target.parentElement.classList.contains('fighter-card')) {
+    fighterDOM = ev.target.parentElement;
+  } else if(ev.target.parentElement.parentElement.classList.contains('fighter-card')) {
+    fighterDOM = ev.target.parentElement.parentElement;
+  }
+  const fighter = fighterDOM.fighter;
+  const player = b.currentPlayerTurn;
+  const position = Math.floor(Math.random() * (69 - 30 + 1)) + 30;
+  fighter.position = position;
+  player.addFighter(fighter);
+  fighterDOM.remove();
+  b.draw();
+
+  b.nextPlayerTurn();
+  showPlayersInfo();
+}
+
 function drawFightersCatalog() {
   characters.forEach(fighter => {
     if(fighter.start_card) {
       const f = new Fighter(fighter.position, fighter.name, "/assets/personatges/"+fighter.picture, fighter.univers);
       fighters.push(f);
-      catalog.innerHTML += f.getFighterCard();
+      // Create DOM element for the fighter and bind to f object
+      const fighterDOM = document.createElement('div');
+      fighterDOM.classList.add('fighter-card');
+      fighterDOM.classList.add('gradient_'+fighter.univers);
+      fighterDOM.innerHTML = f.getFighterCardSimple();
+      fighterDOM.addEventListener('click', selectFighter);
+      fighterDOM.fighter = f;
+      catalogDOM.appendChild(fighterDOM);
     }
   });
+}
+
+function showPlayersInfo() {
+  playersInfoDOM.innerHTML = '';
+  playersInfoDOM.innerHTML += `
+    <div class="alert alert-success" role="alert">
+      <p>Ordre de Joc: ${b.players.map(player => player.name).join(', ')}</p>
+      <p>Jugador Actual: ${b.currentPlayerTurn.name}</p>
+      <p>Lluitadors: ${b.currentPlayerTurn.fighters.map(f => f.name).join(', ')}</p>
+    </div>
+  `;
 }
 
 // First player selects a fighter and passes the turn to the next player.
@@ -200,4 +266,17 @@ function chooseFighters() {
 /* 
   Game preparation 
 */
-askForPlayers();
+
+//askForPlayers();
+
+function mockPrepareGame() {
+  let player = new Player("A");
+  b.addPlayer(player);
+  player = new Player("B");
+  b.addPlayer(player);
+  b.randomPlayOrder();
+  chooseFighters();
+}
+mockPrepareGame();
+showPlayersInfo();
+
