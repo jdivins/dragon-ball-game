@@ -1,0 +1,110 @@
+name;start_card;univers;picture;power;hability;health;Y_damage;G_damage;P_damage;R_damage;protection_combo;fight_combo_name;fight_combo;fight_combo_damage;ball_combo_name;ball_combo;ball_combo_damage;transf_min_value;protection_divider;transf_damage;extra_habilities;fusion_needed;transf_origin_card;transf_cards
+Jiren máxima potencia;false;11;buit.png;6;4;42;5;5;5;6;BBBBB;Encadenamiento de puños de energia;YPGRB;38;Magnetrón sobrecalentado;YYPPRR;60;4;3;5;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];;1;
+Jiren;true;11;jiren.png;5;3;42;4;5;4;5;BBBB;Ola de potencia invisible;PPPRR;32;Impacto de potencia;YYPRR;45;;;;[0,1,0,0,0,0,0,0,0,0,0,0,1,0];;;0
+Anilaza;false;3;anilaza.png;5;4;37;4;3;4;3;BBBBB;Puño interdimensional;GPRB;25;Bola de energia máxima potencia;YYPPR;35;;;;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];Paparoni, Koichiarator;;
+Son Goku Ultra Instinto;false;7;goku_ultra_instinto.png;6;4;34;5;5;5;6;BBBBB;Encadenamiento ultra instinct;YPGRB;40;Kamehameha ultra instinct;PPYRRR;60;11;3;3;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];;11;
+Son Goku Ultra Instinto (presagio);false;7;buit.png;6;4;34;4;5;4;5;BBBBB;Encadenamiento;PPGRR;35;Kamehameha;PPYRRR;41;10;3;4;[0,0,0,0,1,0,0,0,0,0,0,0,0,0];;11;
+Son Goku Super Saiyan Blue + Kaioken x10;false;7;buit.png;6;3;34;3;4;4;5;BBBBB;Aura de Kaio x10;PPGRR;30;Aura de Kaio x20;PPYRRR;36;8;3;3;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];;11;
+Son Goku Super Saiyan Blue;false;7;goku_blue.png;5;3;34;3;3;3;4;BBBB;Teletransportación + ataque;BPPG;26;Kamehameha;PPYRR;29;7;3;3;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;11;
+Son Goku Super SAiyan Dios;false;7;buit.png;5;3;34;2;3;3;4;BBBB;Teletransportación + ataque;BPGR;25;Kamehameha;PPYRR;27;6;2;2;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;11;
+Son Goku Super Saiyan 3;false;7;buit.png;5;3;34;2;3;2;3;BBBBB;Encadenamiento;PGGR;23;Kamehameha;PPYRR;24;5;2;0;"[0,0,0,""PPGGR"",0,0,0,0,0,0,0,0,0,0]";;11;
+Son Goku Super Saiyan 2;false;7;buit.png;5;2;34;1;2;2;3;BBBBB;Encadenamiento;BPPG;20;Kamehameha teletransportado;PPYRB;22;4;2;0;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;11;
+Son Goku Super Saiyan;false;7;goku_ss1.png;4;2;34;1;2;2;2;BBBB;Teletransportación + ataque;BPG;18;Kamehameha;PPYY;20;3;2;0;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;11;
+Son Goku;true;7;goku.png;3;2;34;1;2;1;2;BBB;Kamehameha;PPY;17;Genkidama;PPYRR;35;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;[10,8,8,7,6,5,4,3]
+Vegeta Super Saiyan Blue Evolution;false;7;buit.png;6;4;33;4;5;4;6;BBBBB;Destello final máxima potencia;YPPRRR;41;Implosión;YPGRRR;55;9;3;4;[0,0,0,0,0,0,0,1,0,0,0,0,1,0];;16;
+Vegeta Super Saiyan Blue;false;7;buit.png;5;3;33;3;3;3;4;BBBB;Encadenamiento;PPGR;29;Destello final definitivo;YPPRR;33;7;3;3;[0,0,0,0,1,0,0,0,0,0,0,0,1,0];;16;
+Vegeta Super Saiyan 2;false;7;buit.png;5;3;33;2;3;2;3;BBBBB;Ataque Big Bang;YYPR;24;Destello final;YPPRR;27;5;2;0;"[0,0,0,""PPGGR"",0,0,0,0,0,0,0,0,1,0]";;16;
+Vegeta Super Saiyan;false;7;buit.png;4;2;33;2;2;2;3;BBBB;Encadenamiento;PGR;20;Cañón Galick;YYPP;23;3;2;0;[0,0,0,0,0,0,0,0,0,0,0,0,1,1];;16;
+Vegeta;true;7;vegeta.png;3;2;33;1;2;2;2;BBB;Encadenamiento;PGR;19;Cañón Galick;YPP;21;;;;[0,0,0,0,0,1,0,0,0,0,0,0,1,0];;;[15,14,13,12]
+Toppo dios  de la destrucción;false;11;toppo_dios.png;6;2;32;5;4;4;6;BBBBB;Encadenamiento;PPGGR;35;Bola de destrucciión;YYPGRR;45;4;3;3;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];;;
+Toppo;true;11;toppo.png;5;4;32;3;4;3;5;BBBB;Justice Flash;YYPR;26;Justice Crush;PPRRR;31;;;;[0,0,0,0,1,0,0,0,0,0,0,0,0,0];;;[17]
+Kefla Super Saiyan;false;6;kefla_ss.png;6;3;32;3;5;4;6;BBBBB;Ráfaga gigante;PPYRR;35;Oleada gigante;YYRRRR;40;3;3;3;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];Caulifa, Kale;;
+Kefla;false;6;kefla.png;5;4;32;3;4;3;4;BBBB;Encadenamiento;PPGGR;29;Cañón de energía;YYRRR;33;;;;[0,0,0,0,1,0,0,0,0,0,0,0,0,0];Caulifa, Kale;;
+Kale Super Saiyan 2;false;6;kale_ss1_dreta.png;6;3;30;4;4;3;5;BBBBB;Encadenamiento;PPGGR;30;Oleada de energía;YYPRRR;32;3;2;0;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Kale Super Saiyan 2 (fuera de control);false;6;kale_ss1.png;5;3;30;4;4;3;5;BBBB;Explosión de energía;PGRR;28;Ráfaga de meteoritos;YYRRR;36;5;3;4;"[0,0,0,""PPRRR"",0,0,0,0,0,0,0,0,0,0]";;;
+Kale;true;6;kale.png;3;4;30;1;1;1;2;BBB;Encadenamiento;PGR;15;Bola de energía;YYR;19;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;[22,21]
+Hit;true;6;hit.png;6;2;30;3;4;3;4;BBBBB;Salto temporal + ataque;PGRBB;32;Bloqueo temporal + bola de energia;YPRRBB;40;;3;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Son Gohan Estado Definitivo;false;7;buit.png;5;3;28;3;4;3;5;BBBBB;Masenko;YPPRR;27;Kamehameha definitivo;PPYRR;31;5;3;3;[0,0,0,0,0,0,0,1,0,0,0,0,0,0];;;
+Son Gohan Super Saiyan 2;false;7;buit.png;5;3;28;2;2;2;3;BBBBB;Encadenamiento;PPGR;23;Kamehameha final;PPYRR;25;4;2;0;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Son Gohan Super Saiyan;false;7;buit.png;4;2;28;1;2;2;2;BBBB;Ráfaga de bolas de energía;PYR;19;Masenko;PYPR;22;2;2;0;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Son Gohan;true;7;son_gohan.png;3;2;28;1;2;1;2;BBB;Encadenamiento;PGR;18;Kamehameha;PYP;20;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;[27,26,25]
+Golden Freezer;false;7;golden_freezer.png;5;2;27;3;4;3;4;BBBB;Carga de energía;YYYPR;30;Bola de la muerte;YYPPR;37;4;2;3;[0,0,0,0,1,0,0,0,0,0,0,0,1,0];;;
+Freezer;true;7;freezer.png;4;3;27;2;3;2;3;BBBB;Rayo de la muerte;YPP;25;Rayo mortal;PRRR;29;;;;[0,0,0,1,0,0,0,0,0,0,0,0,1,0];;;[29]
+C-17;true;7;c17.png;5;2;26;3;3;3;4;BBBB;Ráfaga de bolas de energía;YYRR;30;Autodestrucción;YPPRR;36;;2;;[0,0,0,1,0,0,0,0,0,0,0,0,0,0];;;
+Dispo;true;11;dispo.png;5;3;25;3;4;3;3;BBBB;Justice Kick;YPPG;25;Justice Crush;YPRRB;30;;;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Caulifla Super Saiyan 2;false;6;caulifla_ss2.png;5;2;23;2;3;2;3;BBBBB;Encadenamiento;PPGR;25;Oleada de energía;YYPRR;29;5;2;3;[0,0,0,0,1,0,0,0,0,0,0,0,0,0];;;
+Caulifla Super Saiyan;false;6;caulifla_ss1.png;4;2;23;1;1;2;2;BBBB;Teletransportación + encadenamiento;PGB;19;Cañón devastador;YPRR;21;3;2;0;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Caulifla;true;6;caulifla.png;3;2;23;1;2;1;2;BBB;Encadenamiento;PGG;16;Bola de energía;YPR;18;;;;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;;[34,33]
+C-18;true;7;c18.png;5;2;24;2;3;2;3;BBBB;Encadenamiento;YPGR;24;Ola de energía explosiva;YPRRR;28;;;;[0,0,0,1,0,0,0,0,0,0,0,0,0,0];;;
+Piccolo;true;7;piccolo.png;5;2;22;2;3;2;3;BBBBB;Onda demoníaca;YYPR;23;Makankosappo;YPGRR;27;;;;[0,0,0,0,0,0,0,0,1,0,0,1,0,0];;;
+Cabba Super Saiyan;false;6;cabba_ss1.png;4;2;21;1;2;2;2;BBBB;Carga ráfaga;PYR;17;Cañón Galick;YPPR;20;3;2;3;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Cabba;true;6;buit.png;3;2;21;1;2;1;1;BBB;Encadenamiento;PPG;15;Bola de energía;YYR;17;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;[38]
+Koichiarator;true;3;buit.png;4;2;21;2;2;2;3;BBBBBB;Golpe potente;PPRR;17;Vista láser;YYPP;20;;;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Priina;true;6;buit.png;4;2;20;2;2;2;3;BBBB;Brazos telescópicos;YPGR;17;Grito devastador;YYYR;20;;;;[0,0,0,0,0,0,0,0,0,0,0,1,0,0];;;
+Saonel;true;6;buit.png;4;2;20;2;2;2;3;BBBB;Brazos telescópicos;PPRR;15;Hoja de energía;YYPR;19;;;;[0,0,0,0,0,0,0,0,0,0,0,1,0,0];;;
+Ribrianne;false;2;buit.png;5;3;20;2;3;2;3;BBBBB;Cañón Bonito;YPRR;19;Ametralladora del amor hermoso;YYYRR;23;3;2;;[0,0,0,0,1,0,0,0,0,0,0,0,0,0];;;
+Briand de Chateau;true;2;buit.png;4;2;20;1;2;1;2;BBBB;Encadenamiento;PPG;15;Lazo Gran Amor;YYPR;17;;;;[0,0,0,0,0,0,0,0,1,0,0,0,0,1];;;[43]
+Kakunsa;false;2;buit.png;5;3;20;2;3;3;2;BBBB;Arañazos bestiales;PPGR;18;Bola de energía;YYPRR;21;4;2;;[0,0,0,0,1,0,0,0,1,0,0,0,0,0];;;
+Sanka Ku;true;2;buit.png;4;2;20;1;2;2;3;BBB;Encadenamiento;YPRR;15;Bola de energía;YYPR;19;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;[45]
+Rozie;false;2;buit.png;5;3;20;2;3;3;3;BBBBB;Encadenamiento;YPGG;17;Puño Yacchaina;YPGRB;21;4;2;;[0,0,0,0,0,0,0,0,1,0,0,0,0,1];;;
+Su Roas;true;2;buit.png;4;2;20;1;2;2;3;BBBB;Ráfaga de puños;PPP;15;Estallido bola de energía;YYRR;18;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;[47]
+Frost;true;6;frost.png;4;3;20;2;2;2;3;BBBB;Rayos caóticos;YPR;18;Bola caótica;YYPR;21;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Jimizu;true;2;buit.png;4;3;19;2;2;2;2;BBB;Ataque instantáneo;RGB;16;Bola de energía;YYPR;19;;;;[0,0,0,0,1,0,0,0,0,0,0,0,0,0];;;
+Obuni;true;10;buit.png;5;3;19;2;3;2;3;BBBB;Encadenamiento;YPPG;16;Técnica interna Ki;PYRBB;19;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Bergamo;true;9;bergamo.png;4;3;18;1;2;1;3;BBBB;Puños y pies de energía;GGR;19;Wolfgand Driller;YPGR;23;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Lavender;true;9;lavender.png;4;2;17;1;2;3;2;BBBB;Encadenamiento;YPG;18;Aliento envenenado;YPGR;23;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Basil;true;9;basil.png;4;2;17;1;2;1;3;BBBB;Bláster brillante;GGR;17;Wolfgang Pressure;YPGR;23;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Monna;true;4;buit.png;4;2;17;1;3;2;3;BBBB;Ataque inflado;YPG;17;Bola de tanque humana;GPRR;20;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Maji Kayo;true;3;buit.png;4;2;16;1;2;1;2;BBBB;Metamorfosis;PBB;16;Puño enorme;PPRR;19;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Narirama;true;3;buit.png;4;2;16;1;2;2;1;BBB;Estiramiento brazo;PPP;13;Peonza;YPG;17;;;;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;;
+Krilin;true;7;krilin.png;3;3;16;2;2;2;2;BBB;Kienza;YP;17;Kamehameha;YPP;19;;;;"[0,0,0,0,0,0,0,0,1,""<13 BB0"",0,0,0,0]";;;
+Tenshinhan;true;7;tenshinhan.png;3;2;15;2;2;2;2;BBB;Dodompa;PG;18;Shinkikoho;YYP;22;;;;"[0,0,0,0,0,0,0,0,1,""<14 BB0"",0,0,0,0]";;;
+Damon;true;4;damon.png;4;2;15;1;2;2;3;BBB;Contraataque inalcanzable;PBB;13;Ataque silencioso;PGR;15;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Gamisaras;true;4;gamisaras.png;4;1;15;1;2;1;2;BBB;Zancadilla;PGG;14;Encadenamiento;PPGG;17;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Kunshi;true;11;buit.png;4;3;15;1;1;1;2;BBBB;Encadenamiento;PRR;19;Hilo de energía;YPPR;21;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Maestro Roshi Máxima Potencia;false;7;maestro_roshi.png;3;2;13;1;2;1;2;BB;Mafuba;PRR;15;Kamehameha;PPY;16;4;2;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Maestro Roshi;true;7;m_roshi.png;3;2;13;1;1;1;2;BBB;Mafuba;PR;14;Kamehameha;PPY;15;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;[63]
+Napapa;true;10;napapa.png;4;2;14;1;1;2;2;BBBB;Encadenamiento;PPG;19;Técnica de las 100 manos;PPRR;21;;;;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;;
+Magetta;true;6;magetta.png;4;2;14;1;2;3;1;BBBB;Chorro de lava;PGR;17;Garrote de lava;YPRR;20;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Kahseral;true;11;buit.png;4;2;14;2;2;2;3;BBBB;Justice Saber;PPR;17;Justice Bomber;YYRP;19;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Zirloin;true;2;buit.png;3;2;14;1;2;2;2;BBB;Encadenamiento;PG;15;Puñetazo martillo;yyr;17;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Tupper;true;11;buit.png;4;2;13;1;2;1;2;BBBB;Refuerzo;GGR;14;Rueda en llamas;ypgr;18;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Biara;true;3;buit.png;3;2;13;1;2;2;1;BBB;Encadenamiento;PG;14;Bola de energía;yyr;17;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Murichim;true;10;buit.png;4;2;13;1;1;1;2;BBBB;Encadenamiento;PGG;16;Bola de energía;YRRR;18;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Prum;true;2;buit.png;4;2;13;1;2;1;2;BBB;Devolución Ki;YPG;15;Devolución láser;YYR;21;;;;"[0,0,0,""PPR"",0,0,0,0,0,0,0,0,0,0]";;;
+Rabanra;true;2;buit.png;4;2;13;1;1;2;2;BBB;Encadenamiento;PG;17;Bola de energía;YYR;20;;;;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;;
+Paparoni;true;3;buit.png;4;2;13;1;2;1;3;BBBB;Encadenamiento;PGR;17;Bola de energía;YYRR;20;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Zarbuto;true;2;buit.png;4;2;12;1;2;2;2;BBBB;Encadenamiento;PGG;19;Bola de energía;YYYR;20;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Katopesla;true;3;buit.png;4;2;12;1;2;1;1;BBBB;Puños de energía;PPR;17;Katopesla:missión final;YYRR;21;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Botamo;true;6;botamo.png;4;1;12;1;1;1;2;BBBB;Láser;GGR;14;Aplastamiento;YYRR;19;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Ganos transformado;false;4;ganos_trans.png;4;2;12;2;2;2;3; BBBB;Descarga eléctrica;YPR;18;Grand Adora;PPRR;21;4;2;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Ganos;true;4;ganos.png;3;2;12;1;1;1;2;BBB;Encadenamiento;PPG;15;Ráfaga de bolas;YYR;17;;;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;[78]
+Zoiray;true;11;buit.png;3;2;12;1;1;1;2;BBB;Justice Spin;YPR;14;Justice Tornado;PGR;16;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Nink;true;4;buit.png;3;1;11;1;1;1;1;BBB;Refuerzo;YPG;14;Abrazo de oso;PRR;18;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Rubalt;true;10;buit.png;3;2;11;1;2;2;2;BBB;Encadenamiento;PGG;13;Puñetazo;PPR;15;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Shantasa;true;4;buit.png;3;2;11;1;1;2;2;BBB;Encadenamiento;PG;16;Campo de ilusiones;YYR;19;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Kettle;true;11;buit.png;3;1;11;1;1;1;2;BBB;Encadenamiento;PG;12;Barrera de bolas;YYR;16;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Hermila;true;2;buit.png;4;2;10;2;1;1;2;BBBB;Encadenamiento;pgr;15;Tir Láser;YYRR;21;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Chappil;true;9;buit.png;3;2;10;1;1;2;1;BBB;Aliento de fuego;pg;15;Piel de hierro;PRR;17;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+El Preecho;true;3;buit.png;3;1;10;1;1;1;1;BBB;Encadenamiento;ppg;13;Bola de energía;YYY;15;;;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Vuon;true;11;vuon.png;3;1;10;1;1;2;2;BBBB;Láser;yrr;17;Justice Whip;YYYR;19;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Nigrissi;true;3;buit.png;3;2;10;1;1;1;2;BBBB;Ataque camuflado;pgg;15;Ola de energia;YYPR;17;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Majora;true;4;majora.png;3;2;10;1;1;1;1;BBB;Encadenamiento;ppg;14;Bola de energía;YRR;18;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Darcoli;true;4;buit.png;3;2;10;1;1;1;2;BBB;Ilusión;ypb;13;Técnica de la sombra;PGB;17;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Bikal;true;2;bikal.png;3;1;9;2;2;1;2;BBB;Bola de energía;yg;14;Ataque aéreo;YPR;17;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Dr. Rota;true;6;dr_rota.png;3;1;9;1;2;1;2;BBB;Encadenamiento;ppg;13;Bola de energía;YYR;15;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Hyssop;true;9;hyssop.png;3;1;9;1;2;1;1;BBB;Lanza de hielo;ppy;14;Pico de hielo;YYR;17;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Dium;true;10;dium.png;2;1;9;1;2;1;1;BB;Ataque aéreo;PG;17;Bola de energía;YR;19;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Sorrel;true;9;sorrel.png;2;1;9;1;2;1;1;BB;Encadenamiento;PG;12;Bola de energía;YR;14;;;;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;;
+Comfrey;true;9;comfrey.png;3;2;9;1;1;1;2;BBB;Encadenamiento;PG;15;Bola de energía;YPY;16;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Cocotte;true;11;cocotte.png;3;2;9;1;1;1;2;BBB;Encadenamiento;GPP;15;Bola de energía;YYR;18;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Jilcol;true;10;jilcol.png;3;1;9;1;1;1;2;BBBB;Encadenamiento;YGR;12;Bola de energía;YPRR;16;;;;[1,0,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Shosa;true;4;shosa.png;3;2;9;1;2;2;1;BBB;Bola de energía;PYG;14;Ráfaga de bolas;YPR;16;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Orégano;true;9;oregano.png;3;2;8;1;1;2;1;BBB;Hilo inmovilizador;PR;15;Bola de energía;YYY;16;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Methiop;true;10;methiop.png;3;1;8;1;1;2;1;BBB;Encadenamiento;YRR;16;Puño elástico;PPR;20;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Murisarm;true;10;murisarm.png;3;2;8;1;1;1;2;BBB;Encadenamiento;PGR;14;Bola de energía;YYR;16;;;;[0,0,0,0,0,0,0,0,0,0,0,0,0,1];;;
+Roselle;true;9;roselle.png;3;1;8;1;1;1;2;BBB;Ataque aéreo;PGR;14;Bola de energía;YPP;16;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Hop;true;9;hop.png;3;1;8;2;1;1;1;BBB;Garra rosa;PRR;15;Bola de energía;YRR;14;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
+Jirasen;true;10;jirasen.png;3;2;8;1;2;2;1;BBB;Encadenamiento;GPG;13;Bola de energía;YYP;15;;;;[0,0,0,0,0,1,0,0,0,0,0,0,0,0];;;
+Caway;true;4;caway.png;3;2;8;1;2;1;1;BBB;Martillo de energía;YPG;15;Lanzaenergía;YPR;18;;;;[0,1,0,0,0,0,0,0,0,0,0,0,0,0];;;
+Lilibeu;true;10;lilibeu.png;2;1;8;1;1;1;1;BB;Encadenamiento;PG;14;Vuelo ardiente;YP;18;;;;[0,0,0,0,0,0,1,0,0,0,0,0,0,0];;;
