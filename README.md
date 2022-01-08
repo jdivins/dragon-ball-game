@@ -1,15 +1,20 @@
 # Crear un joc fent servir Vanilla JS
-Veure quines eines hi ha avui per construir amb Vanilla JS un joc.
+Veure quines eines hi ha avui per construir amb Vanilla JS i Programació Orientada a Objectes un joc.
 
-# Eines utilitzades
+## Arrencar el projecte
+1. Clonar el projecte
+2. `npm install`
+3. `npm run dev`
+
+## Eines utilitzades
 - [Vite](https://vitejs.dev/guide/#getting-started): Diuen que és més ràpid que webpack. Ja integra un LiveReload al modificar fitxers.
 Arrencat amb `npm run dev`
 
-# Decisions
+## Decisions
 - Fer-ho amb Programació Orientada a Objectes
 
 
-# Idees
+## Idees
 1. **Fer una PWA?**
 Al fer una PWA es pot tenir accés a funcionalitats del dispositiu i es pot instal·lar com una app
 2. **Fer testing?** 
