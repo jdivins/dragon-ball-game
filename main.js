@@ -1,7 +1,7 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <h1>Dragon Ball Game!</h1>
+  <h1>La Resistència! - <span class="small">Bola de Drac</span></h1>
 `
 class Consola {
   static log(...args) {
@@ -58,19 +58,19 @@ class Board  {
 class Fighter {
   position = 0;
   image = "";
-  color = "";
+  univers = "";
   name = "";
 
-  constructor(position=-1, name, image, color) {
+  constructor(position=-1, name, image, univers) {
     this.position = position;
     this.name = name;
     this.image = image;
-    this.color = color;
+    this.univers = univers;
   }
 
   getFighterCard() {
     return `
-      <div class="fighter-card">
+      <div class="fighter-card gradient_${this.univers}">
         <div class="fighter-card-image">
           <img src="${this.image}">
         </div>
@@ -94,6 +94,7 @@ b.addFighter(f3);
 b.draw();
 
 const catalog = document.querySelector('#catalog');
+
 const fighters = [];
 import {characters } from './db/characters.js'
 Consola.log(characters.length);

@@ -1,3 +1,8 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,6 +17,7 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   max-width: 80vh;
+  margin: 0 auto;
 }
 
 .cell {
@@ -49,15 +55,73 @@
 /* Estils del Catàleg de Targetes */
 
 #catalog {
-  max-width: 100vw;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3,1fr);
   grid-gap: 10px;
   margin-top: 20px;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
   #catalog {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+
+.fighter-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.fighter-card-name {
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fighter-card.gradient_11 {
+	background: linear-gradient(-45deg, #350103, #460710, #ef6b6be0, #f71100);
+	background-size: 100%;
+	/*animation: my-gradient 1s ease infinite;*/
+}
+
+.fighter-card.gradient_2 {
+	background: linear-gradient(-45deg, #4e0145, #46073b, #ef6bebe0, #f700d9);
+	background-size: 100%;
+	/*animation: my-gradient 1s ease infinite;*/
+}
+
+.fighter-card.gradient_7, .fighter-card.gradient_6 {
+	background: linear-gradient(-45deg, #000138, #0e409a, #6bc4efe0, #062c98);
+	background-size: 100%;
+}
+
+.fighter-card.gradient_10, .fighter-card.gradient_3 {
+	background: linear-gradient(-45deg, #0b3800, #379a0e, #6def6be0, #125201);
+	background-size: 100%;
+}
+
+.fighter-card.gradient_4, .fighter-card.gradient_9 {
+	background: linear-gradient(-45deg, #381a00, #9a420e, #efa26be0, #522e01);
+	background-size: 100%;
+}
+
+.fighter-card-image img {
+  width: 100%;
+}
+
+
+
+/* Estils dels botons */
+.small {
+  font-size: 0.8em;
 }

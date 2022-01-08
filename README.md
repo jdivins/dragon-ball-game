@@ -19,3 +19,4 @@ Arrencat amb `npm run dev`
 Al fer una PWA es pot tenir accés a funcionalitats del dispositiu i es pot instal·lar com una app
 2. **Fer testing?** 
 3. **Registrar els moviments de la partida per poder-la simular o guardar**
+4. **Incorporar un ChangeLog (control de versions)?**
