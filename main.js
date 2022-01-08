@@ -61,11 +61,24 @@ class Fighter {
   color = "";
   name = "";
 
-  constructor(position, name, image, color) {
+  constructor(position=-1, name, image, color) {
     this.position = position;
     this.name = name;
     this.image = image;
     this.color = color;
+  }
+
+  getFighterCard() {
+    return `
+      <div class="fighter-card">
+        <div class="fighter-card-image">
+          <img src="${this.image}">
+        </div>
+        <div class="fighter-card-name">
+          ${this.name}
+        </div>
+      </div>
+    `
   }
 }
 
@@ -78,5 +91,16 @@ b.addFighter(f1);
 b.addFighter(f2);
 b.addFighter(f3);
 
-
 b.draw();
+
+const catalog = document.querySelector('#catalog');
+const fighters = [];
+import {characters } from './db/characters.js'
+Consola.log(characters.length);
+characters.forEach(fighter => {
+  const f = new Fighter(fighter.position, fighter.name, "/assets/personatges/"+fighter.picture, fighter.univers);
+  fighters.push(f);
+  catalog.innerHTML += f.getFighterCard();
+});
+
+
