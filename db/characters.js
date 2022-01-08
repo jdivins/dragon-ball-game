@@ -1,4 +1,4 @@
-var characters = [
+export const characters = [
   {
     "name": "Jiren máxima potencia",
     "start_card": false,
